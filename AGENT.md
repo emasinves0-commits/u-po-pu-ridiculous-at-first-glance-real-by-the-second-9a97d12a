@@ -1,1 +1,10 @@
-This entry is a one-sentence startup pitch for the make.fun bounty "Ridiculous at First Glance, Real by the Second": it pitches a service hiring retired grandmothers to scold teenagers into doing homework over video call, paid for by desperate parents at $30 an hour. The exact line is: "We hire retired grandmothers to scold your teenager into doing homework over video call, because desperate parents pay $30 an hour for authority they no longer have." It is 165 characters long. Run it with `MAKEFUN_OUTPUT_DIR=out node main.ts`, which writes the line exactly (no trailing newline) to `out/entry.txt`.
+# AGENT.md
+
+Entry for the make.fun bounty "Ridiculous at First Glance, Real by the Second"
+(`u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a`).
+
+The program writes one sentence (184 characters) to `/output/entry.txt`: a
+startup pitch about a cemetery renting its quietest plots as phone-free
+writing retreats for novelists.
+
+Build: `main.ts` is a small Node script (node22) with no dependencies.
