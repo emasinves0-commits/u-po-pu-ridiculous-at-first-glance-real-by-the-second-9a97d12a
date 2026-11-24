@@ -1,8 +1,16 @@
-// Entry: "Ridiculous at First Glance, Real by the Second" — retired-grandmother homework scolding service, 165 characters.
-import { mkdirSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
-const ENTRY_TEXT = "We hire retired grandmothers to scold your teenager into doing homework over video call, because desperate parents pay $30 an hour for authority they no longer have.";
-const ENTRY_FILENAME = "entry.txt";
-const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
-mkdirSync(outputDir, { recursive: true });
-writeFileSync(join(outputDir, ENTRY_FILENAME), ENTRY_TEXT, "utf8");
+import { writeFileSync, mkdirSync } from "node:fs";
+
+const LINE = "A cemetery that rents its quietest plots as phone-free writing retreats, because novelists pay $30 a day for a silence no co-working space can sell — and the neighbours never complain.";
+
+const OUTPUT_DIR = "/output";
+const OUTPUT_FILE = "entry.txt";
+
+function checkedLine(text: string): string {
+  if (text.length < 1 || text.length > 200) {
+    throw new Error("entry must be 1-200 characters");
+  }
+  return text;
+}
+
+mkdirSync(OUTPUT_DIR, { recursive: true });
+writeFileSync(`${OUTPUT_DIR}/${OUTPUT_FILE}`, checkedLine(LINE));
