@@ -1,19 +1,11 @@
-# Ridiculous at First Glance, Real by the Second
-
-A one-sentence startup pitch for the make.fun bounty "Ridiculous at First Glance, Real by the Second": a bizarre idea that sounds absurd until the business logic lands.
-
-```
-We hire retired grandmothers to scold your teenager into doing homework over video call, because desperate parents pay $30 an hour for authority they no longer have.
-```
-
-## How to run
-
-```sh
-MAKEFUN_OUTPUT_DIR=out node main.ts
-```
-
-This writes the pitch (exactly 165 characters, one sentence, no trailing newline) to `out/entry.txt`.
+# Ridiculous at First Glance, Real by the Second — "The Quietest Plots"
 
 [![make.fun](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
-[![rank](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/emasinves0-commits/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/rank.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
-[![reward](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/emasinves0-commits/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/reward.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
+[![Rank](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/emasinves0-commits/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/rank.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
+[![Reward](https://make.fun/badge/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/emasinves0-commits/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a/reward.svg)](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a)
+
+One-sentence startup pitch (184 characters) for the [make.fun bounty](https://make.fun/bounty/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a): a bizarre idea that sounds ridiculous at first glance but makes sense as a real business.
+
+> A cemetery that rents its quietest plots as phone-free writing retreats, because novelists pay $30 a day for a silence no co-working space can sell — and the neighbours never complain.
+
+`main.ts` writes the pitch to `/output/entry.txt`.
